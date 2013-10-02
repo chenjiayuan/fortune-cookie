@@ -1,0 +1,24 @@
+/* app/assets/stylesheets is part of the asset pipeline, and any stylesheets in this directory will automatically be included as part of application.css file included in the site layout */
+
+/* universal */
+
+/* header */
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  margin-bottom: 30px;
+  border-top: 1px solid #eaeaea;
+
+  nav {
+  float: right;
+  list-style: none;
+  color: #5e5e5e;
+  }
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
