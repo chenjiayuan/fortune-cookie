@@ -15,10 +15,10 @@
 
     <% @interests.each do |interest| %>
     <tr>
-      <td><%= interest.name %></td>
       <td><%= interest.catagory %></td>
+      <td><%= interest.name %></td>
       <td><%= interest.comment %></td>
-      <td><%= interest.link %></td>
+      <td><%= link_to "#{interest.link}", interest.link %></td>
       <td><%= link_to 'Edit', edit_interest_path(interest) %></td>
       <td><%= link_to 'Delete', interest, method: :delete, data: { confirm: 'Are you sure?' } %></td>
     </tr>

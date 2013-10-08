@@ -1,5 +1,5 @@
 class InterestsController < ApplicationController
-  #http_basic_authenticate_with :name => "111", :password => "222", :except => [:index, :show]
+  http_basic_authenticate_with :name => "111", :password => "222", :except => [:index, :show]
 
   def index
   	@interest = Interest.new
