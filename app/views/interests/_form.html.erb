@@ -1,0 +1,8 @@
+<%= form_for(@interest) do |i| %>
+    Add a new Interest:
+    <%= i.text_field :catagory, :placeholder => "category" %>
+    <%= i.text_field :name, :placeholder => "name" %>
+    <%= i.text_field :comment, :placeholder => "description" %>
+    <%= i.text_field :link, :placeholder => "link" %>
+    <%= i.submit "Add Interest", class: "btn btn-sm btn-success" %>
+<% end %>
