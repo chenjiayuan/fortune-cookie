@@ -22,3 +22,23 @@ footer {
 .navbar-brand {
 	font-weight: bold;
 }
+
+#welcome-text {
+  text-align: center;
+}
+
+.under-construction {
+  padding: 100px 0 100px;
+  text-align: center;
+
+  img {
+    margin-left: 120px;
+  }
+
+  h2 {
+    margin-top: 50px;
+    float:right;
+    width:800px;
+    text-align: left;
+  }
+}
